@@ -2,7 +2,7 @@
   "name": "k-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,14 +14,16 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "K": "index.js"
+    "K": "bin/main.js"
   },
   "bugs": {
     "url": "https://github.com/kisurekeyvick/k-cli/issues"
   },
   "homepage": "https://github.com/kisurekeyvick/k-cli#readme",
   "dependencies": {
-    "commander": "^3.0.0",
-    "download-git-repo": "^2.0.0"
+    "chalk": "^3.0.0",
+    "semver": "^7.1.2",
+    "commander": "^4.1.0",
+    "download-git-repo": "^3.0.2"
   }
 }
